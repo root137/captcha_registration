@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+.form-container form .success-msg{
+   margin:10px 0;
+   display: block;
+   background: green;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+.success{
+   text-align: left;
+   color: green;
+   
+font-size: 14px;
+
+}.captcha-img {
+  position: relative;
+}
+
+.captcha {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: black;
+  transform: translate(-50%, -50%);
+}
+
+
+.error{
+   text-align: left;
+   color: red;
+   font-size: 14px;
+
+}
+label {
+   display: block;
+   text-align: left;
+   margin-bottom: 3px;
+   font-size: 14px;
+   font-weight: 400;
+   color: var(--text-color);
+ }
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+.form-group {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+ img{
+
+   border-radius: 10px;
+ }
+ 
+ .captcha-img {
+   flex: 1;
+   margin-right: 10px;
+ }
+ 
+ .input-captcha {
+   flex: 1;
+ }
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: rgb(17, 135, 189);
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:rgb(17, 135, 189);
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn {
+   display: inline-block;
+   padding: 12px 40px;
+   font-size: 22px;
+   background-color: rgb(17, 135, 189);
+   color: #fff;
+   margin: 0 10px;
+   text-transform: uppercase;
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+ }
+ 
+ .container .content .btn:hover {
+   background-color: rgb(17, 135, 189);
+   box-shadow: 0px 5px 20px 0px rgba(20, 137, 220, 0.5);
+ }
+ 
+ .container .content .btn:focus {
+   outline: none;
+ }
+ 
+ .container .content .btn:active {
+   transform: translateY(2px);
+ }
+ 
+ 
+
+
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #eee;
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 20px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn {
+   background: rgb(21, 156, 219);
+   color: rgb(255, 255, 255);
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+   z-index: 2;
+   transition: background-color 0.3s ease;
+   border: none;
+   border-radius: 15px;
+   padding: 12px 40px;
+ }
+ 
+ .form-container form .form-btn:hover {
+   background: rgb(17, 135, 189);
+   color: #fff;
+ }
+ 
+ .form-container form .form-btn:after {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 3px;
+   background: #fff;
+   z-index: -1;
+   transition: transform 0.3s ease;
+   transform: scaleX(0);
+   transform-origin: left;
+ }
+ 
+ .form-container form .form-btn:hover:after {
+   transform: scaleX(1);
+ }
+ 
+ .form-container form .form-btn:focus {
+   outline: none;
+ }
+ 
+ .form-container form .form-btn:active {
+   transform: translateY(2px);
+ }
+ 
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:rgb(17, 135, 189);
+   text-decoration: none;
+   transition: all 0.3s ease-in-out;
+}
+
+.form-container form p a:hover{
+   color:rgb(21, 156, 219);
+   text-decoration: underline;
+}
+
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: rgb(233, 22, 22);
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
