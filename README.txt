@@ -4,7 +4,7 @@ This system is designed to provide secure user registration and protect user inf
 
 System Requirements:
 XAMPP
-Web browser (Chrome, Firefox, Safari, etc...)
+Web browser (Chrome, Firefox, Safari, etc)
 
 
 Features:
