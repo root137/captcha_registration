@@ -14,8 +14,6 @@ Password Strength Algorithm: The system algorithmically determines the strength 
 Feedback for Password Strength: The system provides suitable feedback to the user about the strength of their password. Based on the strength criteria, the system may display a message such as "Strong Password", "Weak Password", or "Password must be at least 8 characters long and contain uppercase, lowercase, special and numeric characters".
 User Validation: validates user if the username and email already exists.
 Captcha Implementation: To ensure that registration requests are made by human users rather than bots, a captcha function is implemented. The system uses Google reCAPTCHA to validate the registration request. The user will be prompted to complete the captcha challenge by identifying the images or answering a question.
-
-
 Password Policy: 
 The system implements a robust password policy to ensure password security. The password policy includes the following criteria:
 Passwords must be at least 8 characters long.
