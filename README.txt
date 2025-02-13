@@ -1,12 +1,8 @@
 USER REGISTRATION SYSTEM
 This system is designed to provide secure user registration and protect user information. It is developed using HTML, CSS, JavaScript, PHP, and MySQL with XAMPP.
-
-
 System Requirements:
 XAMPP
 Web browser (Chrome, Firefox, Safari, etc)
-
-
 Features:
 User login: User can login to the system with email and password.
 User Interface: A user-friendly interface is provided to prompt the user to create an account by providing their username and password.
